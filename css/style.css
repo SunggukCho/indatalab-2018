@@ -64,7 +64,7 @@ hr {
 }
 
 .section-title {
-  padding-bottom: 32px;
+  padding-bottom: 28px;
 }
 
 .section-border{
@@ -349,10 +349,9 @@ work section
   background-color: #ffffff;
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
 }
-#work h3 {
-  font-size: 18px;
+#work h3{
+  font-size:18px;
 }
-
 
 /* ==========================================================================
 about section
@@ -431,7 +430,10 @@ about section
    text-align: center;
    width: 100%;
 }
-
+#moqa-logo{
+  width: 5em;
+  height:auto;
+}
 /* ==========================================================================
 team section
 ========================================================================== */
