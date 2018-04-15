@@ -512,12 +512,15 @@ about section
 team section
 ========================================================================== */
 #team {
+  /*text-align: center;*/
+}
+#team .section-title,
+#team h1{
   text-align: center;
 }
-
 #team h3 {
   color: #014b8e;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -578,6 +581,27 @@ team section
 #team .social-icon li a:hover {
   color: #89aad5;
 }
+#team .team-header{
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 0 15px 0;
+}
+#team .underline{
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+#team .modal-body img{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+@media screen and (max-width: 768px) {
+  #team .team-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+} 
 /* ==========================================================================
 portfolio section
 ========================================================================== */
