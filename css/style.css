@@ -394,7 +394,9 @@ about section
     margin-top: 50px;
     justify-content: flex-start;
 }
-
+.app-download-btn{
+  margin-right: 20px;
+}
 .app-download-btn a {
     border: 1px solid #ddd;
     display: -webkit-box;
@@ -411,14 +413,12 @@ about section
     -ms-flex-pack: center;
     justify-content: center;
 }
-
 .app-download-btn.active a,
 .app-download-btn a:hover {
     border-color: transparent;
     background-color: #fb397d;
     text-decoration: none;
 }
-
 .app-download-btn a i {
     color: #000;
     font-size: 35px;
@@ -437,7 +437,6 @@ about section
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
 }
-
 .app-download-btn a p {
     font-size: 16px;
     color: #ffffff;
@@ -446,16 +445,10 @@ about section
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
 }
-
 .app-download-btn a p span {
     font-size: 12px;
     display: block;
 }
-
-.app-download-btn:first-child {
-    margin-right: 20px;
-}
-
 .app-download-btn a:hover i,
 .app-download-btn.active a i,
 .app-download-btn.active a p,
@@ -639,7 +632,6 @@ portfolio section
 #portfolio img {
   width: 100%;
   transition: all 0.4s ease-in-out;
- 
 }
 #portfolio img:hover {
   opacity: 0.5;
